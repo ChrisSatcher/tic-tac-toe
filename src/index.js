@@ -101,6 +101,12 @@ class Game extends React.Component {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
 
+        const katieStyle = {
+            color: "red",
+            fontFamily: "Arial",
+            fontSize: "100px"
+        }
+
         return (
             <div className="game">
                 <div className="game-board">
@@ -112,6 +118,7 @@ class Game extends React.Component {
                     <div>{status}</div>
                     <ol>{moves}</ol>
                 </div>
+                <div style={katieStyle}>HELLO KATHRYN!!!!</div>
             </div>
         );
     }
