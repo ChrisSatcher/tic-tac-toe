@@ -1,5 +1,7 @@
 # Deployed to us-east-2 region in AWS Amplify
 
+## Domain chrissatcher.com registered through Cloudflare
+
 
 # Getting Started with Create React App
 
